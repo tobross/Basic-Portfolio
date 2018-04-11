@@ -58,6 +58,9 @@ ul {
     border-width: 5px;
     border-color: #4681b7;
     margin-top: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 30vw;
 }
 
 .clearfix::after {
@@ -77,7 +80,12 @@ footer {
     margin-top: -16px;
     width: 103%;
     height: 50px;
-    text-align: bottom;
+}
+
+footer span {
+    position: absolute;
+    right: 0px;
+    left: 0px;
 }
 
 h2 {
@@ -116,6 +124,7 @@ body {
     background-color: #4aaaa5;
     color: #ffffff;
     font-size: 15px;
+    margin-bottom: 20px;
 }
 
 #greyline {
@@ -131,13 +140,43 @@ body {
     margin-left: 25%;
     margin-right: 25%;
     background-color: #ffffff;
-
 }
 
 #contactInside {
     margin-left: 200px;
     margin-right: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     background-color: #ffffff;
+}
 
+portfolioButton {
+    background-color: #4aaaa5;
+    padding: 20px;
+}
+
+.container {
+    float:left;
+    margin: 5px;
+    position: relative;
+    text-align: center;
+    color: black;
+    border: solid 2px black;
+}
+
+#stuffInsidep {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #ffffff;
+    min-height: 750px;
+}
+
+.game {
+    position: absolute;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    padding: 10px;
+    display: inline-block;
+    width: 90%;
+    border: solid 2px black;
 }
