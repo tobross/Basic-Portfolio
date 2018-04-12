@@ -180,3 +180,8 @@ portfolioButton {
     width: 90%;
     border: solid 2px black;
 }
+
+.portpic {
+    height: 200px;
+    width: 200px;
+}
