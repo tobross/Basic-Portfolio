@@ -41,7 +41,7 @@ ul {
     background-image: url("../images/escheresque_ste.png");
     width: 105%;
     margin-left: -10px;
-    color: #46b771;
+    color: #063f1b;
     margin-top: 0px;
     border-top: solid;
     border-color: #d6d9de;
@@ -184,4 +184,8 @@ portfolioButton {
 .portpic {
     height: 200px;
     width: 200px;
+}
+
+p {
+    margin: 5px 10px 20px 10px;
 }
